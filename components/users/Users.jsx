@@ -42,6 +42,7 @@ export default class Users extends React.Component {
   deleteUser = (userId) => {
     this.setState({
       users: this.state.users.filter((user) => user.id !== userId),
+      userClicked: false,
     });
   };
 
