@@ -23,7 +23,7 @@ export default class UserForm extends React.Component {
           type='text'
           placeholder='Set A Nickname...'
           name='name'
-          value={name}
+          value={this.state.name}
           onChange={this.onChange}
         />
         <div>
